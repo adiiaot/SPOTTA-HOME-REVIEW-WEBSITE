@@ -174,8 +174,12 @@ nav .top .theme-toggle .bx {
     cursor: pointer;
     transition: 0.2s;
  }
+ .home .text-container button a{
+    color: #fff;
+ }
  .home .text-container .btn:hover {
-    background: var(--color-dark-variant);
+    background: #202528;
+   
  }
  .home .review-image{
     margin-left: 69%;

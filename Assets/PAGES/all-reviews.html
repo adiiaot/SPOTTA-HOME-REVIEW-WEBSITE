@@ -8,14 +8,61 @@
 
     <!----------CSS STYLESHEET LINK----->
     <link rel="stylesheet" href="/Assets/css/style.css">
-
+    <!-----------CSS FOR ALL REVIEWS------>
+    <link rel="stylesheet" href="/Assets/css/allreviews.css">
     <!------------JS SCRIPT FOR LOGIN PAGE AUTHENTICATION---->
 </head>
 <body>
-    <header>
-    <!----------HOME-CONTAINER---------->
-    <!----------Headings(LOGO,  NAVBAR(USER LOGO, SEARCH DATA BOX, SMALL BOX OPTIONS))----->
-        </header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#" class="logo">SPOTT<span>A</span></a>
+            </div>
+            <div class="login">
+                <!------THEME TOGGLE BUTTON---->
+                
+
+                <small>login!</small>
+                <!------LINK TO LOGIN PAGE----->
+                <a href="/Assets/PAGES/login.html" class="profile-photo">
+                    <i class='bx bxs-user-circle'></i>
+                </a>
+                <div class="top">
+                    <!---MENU ICON-->
+                    <button id="menu-btn">
+                        <i class='bx bx-menu'></i>
+                    </button>
+    
+                    <!------LIGHT AND DARK THEME BUTTONS-->
+                    <div class="theme-toggle" onclick="toggleDarkMode()">
+                        <i class='bx bx-sun active'></i>
+                        <i class='bx bx-moon'></i>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+
+        <div class="home">
+
+            <div class="text-container">
+                <h1>Find a place you<br> will love to live!</h1>
+                <p>See through the lenses of people who have<br> lived or visited the neighbourhood you might <br> have in mind.</p>
+                <br/>
+
+                <!----SEARCH BOX---->
+                <input type="search" name="" class="search-bar" id="" placeholder="Enter Address">
+                <br>
+                <!-----ADD SEARCH ICON---->
+                <button type="button"  class="btn"><i class='bx bx-search bx-flashing' ></i><a href="/Assets/PAGES/all-reviews.html"> Search</i></a></button>
+            </div>
+
+            <div class="review-image">
+             <a href="/Assets/PAGES/all-reviews.html"><img id="theme-image"src="/Assets/images/Images/reviewswhite.png" alt="reviews display"></a>
+            </div>
+          
+        </div>
+    </div>
 
     <main>
     <!---HOME-TEXT CONTAINER------>
