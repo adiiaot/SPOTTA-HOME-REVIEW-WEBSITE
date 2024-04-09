@@ -4,22 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPOTTA HOME REVIEW WEBSITE</title>
-    <!---------BOX ICON CDN------->
-
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!----------CSS STYLESHEET LINK----->
     <link rel="stylesheet" href="/Assets/css/style.css">
-
-    <!------------JS SCRIPT FOR LOGIN PAGE AUTHENTICATION---->
-</head>
+    <link rel="stylesheet" href="/Assets/css/allreviews.css">
+    <link rel="stylesheet" href="/Assets/css/createreview.css">
+   </head>
 <body>
-   <main>
-    <!---REVIEW CONTAINER------>
+    <header>
+    <!----------NAV-CONTAINER---------->
+    <div class="container">
+        <nav>
 
-   <!----INPUT BOX, DROPDOWN SELECTION FOR LOCATION, 
-    TEXTBOX, USER CAN POST REVIEW AND
-     IT WILL SHOW IN THE ALL REVIEWS SECTION-->
-    </main>
+            <!------LOGO-->
+            <div class="logo">
+                <a href="#" class="logo">SPOTT<span>A</span></a>
+            </div>
+
+            <!-------SEARCH BAR----->
+            <div class="search">
+                <!----SEARCH BOX---->
+                <input type="search" name="" class="search-bar1" id="" placeholder="Bonny and Clyde street Ajao estate Lagos">
+            </div>
+              
+           
+
+            <!---------THEME BUTTONS/LOGIN-->
+            <div class="login">
+                <!------THEME TOGGLE BUTTON---->
+                
+
+                <small >Welcome!</small>
+                <!------LINK TO LOGIN PAGE----->
+                <a href="/Assets/PAGES/login.html" class="profile-photo">
+                    <i class='bx bxs-user-circle'></i>
+                </a>
+                <div class="top">
+                    <!---MENU ICON-->
+                    <button id="menu-btn">
+                        <i class='bx bx-menu'></i>
+                    </button>
+    
+                    <!------LIGHT AND DARK THEME BUTTONS-->
+                    <div class="theme-toggle" onclick="toggleDarkMode()">
+                        <i class='bx bx-sun active'></i>
+                        <i class='bx bx-moon'></i>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+
+        <!-------SUBNAV CONTAINER--->
+        <div class="subnav">
+            <div class="subnav2">
+                <div class="heading">
+                    <h1>Bonny and Clyde Street, Ajao Estate, Lagos</h1>
+                    <br>
+                    <p><b>"450" Reviews</b> (people are raving about the selected locations)</p>
+                </div>
+            
+                
+            </div>
+            
+           <br>
+
+            <div class="options">
+            <input type="button" value="school"> 
+            <input type="button" value="Hospitals">
+            <input type="button" value="Resort Park">
+            <input type="button" value="Shopping Malls">
+            <input type="button" value="Airport">
+            <input type="button" value="Train Station">
+            <input type="button" value="Nightlife">
+            <input type="button" value="Public WiFi">
+            <input type="button" value="Parking Lot">
+            <input type="button" value="Security">
+            <input type="button" value="Public Transport">
+            <input type="button" value="Bus station">
+            <input type="button" value="Quest">
+            <input type="button" value=">">
+            </div>
+            
+        </div>
+        
+    </div>
+   
+  </header>
+ 
+ <div class="review">
+    <img id="theme-image1" class="create" src="/Assets/images/icons/create a review box.png" width="50%" height="50%" alt="review box">
+    <a href="/Assets/PAGES/leave a review.html"><button type="button" class="btn-rectangular">LEAVE A REVIEW</button></a>
+ </div>
+  
+
 </body>
 <!-----------JAVASCRIPT LINK------>
-<script src="/Assets/js/main.js"></script>
+<script src="/Assets/js/createreview.js"></script>
+<script src="/Assets/js/alllreviews.js"></script>
+<script src="/Assets/js/login.js"></script>
 </html>

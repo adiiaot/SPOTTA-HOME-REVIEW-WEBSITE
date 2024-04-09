@@ -1,0 +1,118 @@
+.review  .create, .btn-rectangular {
+   margin: 0% 30%;
+}
+.btn-rectangular {
+    margin-left: 48%;
+    padding: 15px 19px;
+    border: none;
+    border-radius: 5px;
+    background: #1063c9;
+    color: #fff;
+    font-size: 14px; 
+    transition: 0.2s;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-rectangular:hover{
+    background: #202528;
+    color: #fff;
+}
+ /* Media query for tablets (890px width and above) */
+@media only screen and (max-width: 890px) {
+    .review .create {
+        margin: 10% 25%;
+    }
+    .btn-rectangular {
+        margin-left: 40%;
+    }
+}
+
+/* Media query for tablets (768px width and above) */
+@media only screen and (max-width: 768px) {
+    .review .create {
+        margin: 10% 25%;
+    }
+    .btn-rectangular {
+        margin-left: 35%;
+    }
+}
+
+/* Media query for smaller devices like mobile phones (600px width and below) */
+@media only screen and (max-width: 600px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 20%;
+    }
+    .btn-rectangular {
+        margin-left: 30%;
+    }
+}
+
+/* Media query for screens up to 576px width */
+@media only screen and (max-width: 576px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 25%;
+    }
+    .btn-rectangular {
+        margin-left: 25%;
+    }
+}
+
+/* Media query for screens up to 480px width */
+@media only screen and (max-width: 428px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 23%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}
+
+/* Media query for screens up to 414px width */
+@media only screen and (max-width: 414px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 23%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}
+
+/* Media query for screens up to 390px width */
+@media only screen and (max-width: 390px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 29%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}
+
+/* Media query for screens up to 375px width */
+@media only screen and (max-width: 375px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 29%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}
+
+/* Media query for screens up to 360px width */
+@media only screen and (max-width: 360px) {
+    .review .create, .btn-rectangular {
+        margin: 10% 29%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}
+
+/* Media query for screens up to 320px width */
+@media only screen and (max-width: 320px) {
+    .review .create, .btn-rectangular {
+        margin: 0 29%;
+    }
+    .btn-rectangular {
+        margin-left: 29%;
+    }
+}

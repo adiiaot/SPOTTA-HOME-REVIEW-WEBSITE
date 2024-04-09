@@ -1,0 +1,143 @@
+/* Importing styles from the main CSS file */
+@import url('/Assets/css/style.css');
+
+/* Additional styles for the review page */
+.review-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-background);
+}
+
+.review-form {
+    width: 80%;
+    max-width: 500px;
+    padding: var(--padding);
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+}
+
+.review-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.review-form input[type="text"],
+.review-form textarea,
+.review-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius-1);
+}
+
+.review-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-info-dark);
+    color: var(--color-white);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+    background-color: #202528;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: "\2605";
+    font-size: 30px;
+    color: #ddd;
+}
+
+.rating input[type="radio"]:checked ~ label:before {
+    color: #f7b731;
+}
+
+/* Media Queries */
+@media screen and (max-width: 890px) {
+    .review-form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .review-form {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .review-form {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .review-form {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .review-form {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .review-form {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .review-form {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .review-form {
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .review-form {
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .review-form {
+        max-width: 200px;
+    }
+}

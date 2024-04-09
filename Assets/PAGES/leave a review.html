@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a Review - SPOTTA HOME REVIEW WEBSITE</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!----------CSS STYLESHEET LINK----->
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="/Assets/css/leavereview.css"> <!-- New CSS file for this page -->
+</head>
+<body>
+    <div class="review-page">
+        <div class="review-form">
+            <h2>REVIEW LOCATION</h2>
+            <form action="" method="post">
+                <label for="location">Review Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter location" required>
+                <label for="amenities">Select Amenities:</label>
+                <select id="amenities" name="amenities" multiple>
+                    <option value="school">School</option>
+                    <option value="hospital">Hospital</option>
+                    <option value="park">Park</option>
+                    <option value="Shopping Malls">Shopping Malls</option>
+                    <option value="Airport">Airport</option>
+                    <option value="Train Station">Train Station</option>
+                    <option value="Nightlife">Nightlife</option>
+                    <option value="Public WiFi">Public WiFi</option>
+                    <option value="Parking Lot">Parking Lot</option>
+                    <option value="Security">Security</option>
+                    <option value="Bus station">Bus station</option>
+                    <option value="Quest">Quest</option>
+                    <!-- Add more amenities as needed -->
+                </select>
+                <label for="rating">Rating:</label>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+                </div>
+                <label for="review">Write your review:</label>
+                <textarea id="review" name="review" rows="4" placeholder="Write your review here..." required></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

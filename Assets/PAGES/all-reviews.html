@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPOTTA HOME REVIEW WEBSITE</title>
-    <!---------BOX ICON CDN------->
-
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!----------CSS STYLESHEET LINK----->
-    <link rel="stylesheet" href="/Assets/css/style.css">
-    <!-----------CSS FOR ALL REVIEWS------>
     <link rel="stylesheet" href="/Assets/css/allreviews.css">
-    <!------------JS SCRIPT FOR LOGIN PAGE AUTHENTICATION---->
-</head>
+   </head>
 <body>
+    <header>
+    <!----------NAV-CONTAINER---------->
     <div class="container">
         <nav>
+
+            <!------LOGO-->
             <div class="logo">
                 <a href="#" class="logo">SPOTT<span>A</span></a>
             </div>
+
+            <!-------SEARCH BAR----->
+            <div class="search">
+                <!----SEARCH BOX---->
+                <input type="search" name="" class="search-bar1" id="" placeholder="Bonny and Clyde street Ajao estate Lagos">
+            </div>
+              
+           
+
+            <!---------THEME BUTTONS/LOGIN-->
             <div class="login">
                 <!------THEME TOGGLE BUTTON---->
                 
 
-                <small>login!</small>
+                <small >Welcome!</small>
                 <!------LINK TO LOGIN PAGE----->
                 <a href="/Assets/PAGES/login.html" class="profile-photo">
                     <i class='bx bxs-user-circle'></i>
@@ -43,36 +54,144 @@
             
         </nav>
 
-        <div class="home">
-
-            <div class="text-container">
-                <h1>Find a place you<br> will love to live!</h1>
-                <p>See through the lenses of people who have<br> lived or visited the neighbourhood you might <br> have in mind.</p>
-                <br/>
-
-                <!----SEARCH BOX---->
-                <input type="search" name="" class="search-bar" id="" placeholder="Enter Address">
-                <br>
-                <!-----ADD SEARCH ICON---->
-                <button type="button"  class="btn"><i class='bx bx-search bx-flashing' ></i><a href="/Assets/PAGES/all-reviews.html"> Search</i></a></button>
+        <!-------SUBNAV CONTAINER--->
+        <div class="subnav">
+            <div class="subnav2">
+                <div class="heading">
+                    <h1>Bonny and Clyde Street, Ajao Estate, Lagos</h1>
+                    <br>
+                    <p><b>"450" Reviews</b> (people are raving about the selected locations)</p>
+                </div>
+            
+                <div class="buttonnav">
+                    <a href="/Assets/PAGES/create-a-review.html"><button type="button" class="btn-rectangular">LEAVE A REVIEW</button></a>
+                    <button type="button" class="btn1"><i class='bx bx-bookmark'></i></button>
+                    <button type="button" class="btn1"><i class='bx bx-share-alt'></i></button>
+                </div>
             </div>
+            
+           <br>
 
-            <div class="review-image">
-             <a href="/Assets/PAGES/all-reviews.html"><img id="theme-image"src="/Assets/images/Images/reviewswhite.png" alt="reviews display"></a>
+            <div class="options">
+            <input type="button" value="school"> 
+            <input type="button" value="Hospitals">
+            <input type="button" value="Resort Park">
+            <input type="button" value="Shopping Malls">
+            <input type="button" value="Airport">
+            <input type="button" value="Train Station">
+            <input type="button" value="Nightlife">
+            <input type="button" value="Public WiFi">
+            <input type="button" value="Parking Lot">
+            <input type="button" value="Security">
+            <input type="button" value="Public Transport">
+            <input type="button" value="Bus station">
+            <input type="button" value="Quest">
+            <input type="button" value=">">
+            </div>
+            
+        </div>
+        
+    </div>
+   
+  </header>
+ <!-- REVIEWS -->
+ <div class="review">
+    <div class="post">
+        <div class="user-profile">
+            <div>
+                <img src="/Assets/images/icons/pic-1.png" alt="User Profile Image">
+                <span class="user-name">John Mia</span>
+            </div>
+           
+        </div>
+
+        <div class="post-content">
+            <p>There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their surroundings. There are several grocery stores and supermarkets.</p>
+            <div class="post-actions">
+                <span class="like-count"><i class='bx bx-like'></i> 1420 likes</span>
+                <span class="dislike-count"><i class='bx bx-dislike'></i> 20 dislikes</span>
+                <span class="comment-count"><i class='bx bx-comment'></i> 50 comments</span>
+                
+            </div>
+            <!--------ADD A COMMENT------->
+            <div class="add-comment">
+                <input type="text" placeholder="Add a comment...">
+                <button>Post</button>
+            </div>
+        </div>
+        <hr><br>
+        <div class="user-profile">
+            <img src="/Assets/images/icons/pic-2.png" alt="User Profile Image">
+            <span class="user-name">Doe Weell</span>
+            <div class="star">
+                <i class='bx bx-star' ></i><span class="star-count">40</span>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>I had an amazing experience living on Bonny and Clyde Street in Ajao Estate, Lagos. The neighborhood is vibrant and friendly, with plenty of amenities nearby. The apartment I rented was spacious and well-maintained, and the landlord was responsive to any issues that arose. Overall, I highly recommend this area for anyone looking for a comfortable and convenient place to live.</p>
+            <div class="post-actions">
+                <span class="like-count"><i class='bx bx-like'></i> 120 likes</span>
+                <span class="dislike-count"><i class='bx bx-dislike'></i> 20 dislikes</span>
+                <span class="comment-count"><i class='bx bx-comment'></i> 50 comments</span>
+                
             </div>
           
         </div>
+        <hr><br>
+        <div class="user-profile">
+            <img src="/Assets/images/icons/pic-3.png" alt="User Profile Image">
+            <span class="user-name">Barry Allen</span>
+            <div class="star">
+                <i class='bx bxs-star-half' ></i><span class="star-count">40</span>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>I had high hopes for Bonny and Clyde Street, but my time living here has been nothing but a nightmare. The infrastructure is severely lacking, with frequent power outages and unreliable internet service. The streets are poorly maintained, with potholes everywhere and overflowing garbage bins on every corner. I've also had issues with water supply, which is a basic necessity that should be readily available. Overall, this area is not worth the hassle and I regret choosing to live here.</p>
+            <div class="post-actions">
+                <span class="like-count"><i class='bx bx-like'></i> 1420 likes</span>
+                <span class="dislike-count"><i class='bx bx-dislike'></i> 20 dislikes</span>
+                <span class="comment-count"><i class='bx bx-comment'></i> 50 comments</span>
+                
+            </div>
+           
+        </div>
+        <hr><br>
+        <div class="user-profile">
+            <img src="/Assets/images/icons/pic-5.png" alt="User Profile Image">
+            <span class="user-name">AOT Ayo</span>
+            <div class="star">
+                <i class='bx bxs-star-half' ></i><span class="star-count">20</span>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>I absolutely love living on Bonny and Clyde Street! The location is unbeatable, with easy access to shops, restaurants, and public transportation. The community here is diverse and welcoming, and I've made some great friends since moving in. The streets are clean and well-lit, making it feel safe to walk around even at night. I wouldn't want to live anywhere else in Lagos!</p>
+            <div class="post-actions">
+                <span class="like-count"><i class='bx bx-like'></i> 420 likes</span>
+                <span class="dislike-count"><i class='bx bx-dislike'></i> 20 dislikes</span>
+                <span class="comment-count"><i class='bx bx-comment'></i> 50 comments</span>
+                
+            </div>
+            
+        </div>
     </div>
 
-    <main>
-    <!---HOME-TEXT CONTAINER------>
+    <div class="review-img">
+        <div class="column">
+            <img src="/Assets/images/Apartment/1712351947212.jpg" alt="">
+            <img src="/Assets/images/Apartment/1712352118337.jpg" alt="">
+        </div>
+        <div class="column">
+            <img src="/Assets/images/Apartment/1712352140525.jpg" alt="">
+            <img src="/Assets/images/Apartment/1712351947212.jpg" alt="">
+        </div>
+    </div>
+    
+ </div>
+ 
+  
 
-    <!-----REVIEW-BOX-CONTAINER-->
-
-    <!-----END OF HOME CONTAINER---->
-    <!--------PAGE REFERENCE TO THE "CREATE A REVIEW" PAGE-->
-    </main>
 </body>
 <!-----------JAVASCRIPT LINK------>
-<script src="/Assets/js/main.js"></script>
+<script src="/Assets/js/alllreviews.js"></script>
+<script src="/Assets/js/login.js"></script>
 </html>
